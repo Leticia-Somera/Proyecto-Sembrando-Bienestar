@@ -1,0 +1,39 @@
+/*********************** Estilos de la página "¿Cómo ayudar?" ***********************/
+
+/* Estilos título */
+h1 {
+    font-weight: bold;
+    color: var(--azul3);
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Estilos párrafo */
+p {
+    margin: 2% 10%;
+}
+
+/* Estilos tarjetas */
+.card {
+    display: flex;
+    border: none;
+}
+
+/* Estilos imagen tarjetas */
+.card img {
+    border-radius: 5%;
+}
+
+/* Estilos título tarjetas */
+.card .card-title {
+    color: var(--azul1);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos botón de tarjetas */
+.card a.btn {
+    background-color: var(--azul1);
+    color: white;
+    margin-left: 35%;
+}
