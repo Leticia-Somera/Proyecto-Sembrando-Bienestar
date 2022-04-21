@@ -1,6 +1,11 @@
 /* Importación de la fuente "Arsenal" */
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&family=Baloo+Bhai+2:wght@700&family=Baloo+Bhaijaan+2&display=swap');
 
+/* importación de los archivos css de cada una de las páginas */
+@import url('./style-index.css');
+@import url('style-problematica.css');
+@import url('./style-como-ayudar.css');
+
 /* Colores de la página */
 :root {
     --azul1: #7490EB;
@@ -14,126 +19,91 @@
     font-family: 'Arsenal', sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
-/*********************** Estilos de la barra de navegación ***********************/
-/* Estilos del logo en la barra de navegación */
-.navbar-brand img {
-    border-radius: 50px;
-}
-
-/* Estilos del título en la barra de navegación */
-.navbar-titulo {
-    font-weight: bold;
-    color: var(--gris1);
-}
-
-/* Estilos de los botones en la barra de navegación */
-#navbarNav {
-    font-weight: bold;
-    color: var(--gris1);
-}
-
-/*********************** Estilos de los círculos ***********************/
-
-/* Contenedor del círculo de arriba y las flechas */
-.cir_arriba {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-}
-
-/* Cículo de arriba */
-.cir_arriba figure {
-    position: relative;
-    width: 25%;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-/* Estilos de la imagen del círculo de arriba, se prepara la ttransición de la capa */
-.cir_arriba figure img {
-    width: 100%;
-    height: 100%;
-    transition: all 300ms ease-out;
-}
-
-/* Estilos de las flechas */
-.cir_arriba img.flecha_izq {
-    width: 12%;
-    margin-top: 15%;
+.navbar {
     margin-bottom: 2%;
-    margin-right: 2%;
 }
 
-.cir_arriba img.flecha_der {
-    width: 12%;
-    transform: rotate(90deg);
-    margin-top: 15%;
-    margin-left: 3%;
-} 
-
-/* Contenedor de los círculos de abajo */
-.cir_abajo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Cículos de abajo */
-.cir_abajo figure {
-    position: relative;
-    width: 25%;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-/* Estilos de la imagen del círculo de arriba, se prepara la ttransición de la capa */
-.cir_abajo figure img {
-    width: 100%;
-    height: 100%;
-    transition: all 300ms ease-out;
-}
-
-/* Espacio entre los círculos de abajo */
-.cir_abajo figure.circulo1 {
-    margin-right: 20%;
-}
-
-/* Estilos de la capa */
-.circulos figure .capa {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(188, 200, 238, 0.9);
-    transition: all 300ms ease-out;
-    opacity: 0;
+.navbar-brand img {
     border-radius: 50%;
-    visibility: hidden;
+    margin-right: 5%;
+}
+
+h1 {
     text-align: center;
-}
-
-/* Efecto hover en las capas */
-.circulos figure:hover > .capa {
-    opacity: 1;
-    border-radius: 50%;
-    visibility: visible;
-}
-
-/* Estilos de los títulos de las capas */
-.circulos figure .capa h2{
-    color: var(--gris1);
     font-weight: bold;
-    margin-top: 10%;
-    transition: all 300ms ease-out;
+    color: var(--azul3);
+    font-size: 550%;
 }
 
-/* Efecto hover en los títulos de las capas */
-.circulos figure:hover > .capa h2{
-    margin-top: 43%;
+h2 {
+    color: var(--azul1);
+    font-size: 400%;
+    font-weight: bold;
 }
+
+/* Efectos de título y subtítulos */
+
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+  }
+  
+  span:nth-child(1) {
+    animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(2) {
+    animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  span:nth-child(3) {
+    animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(4) {
+    animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(5) {
+    animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+  
+  span:nth-child(6) {
+    animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  span:nth-child(7) {
+    animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  span:nth-child(8) {
+    animation: fade-in 0.8s 1.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  span:nth-child(9) {
+    animation: fade-in 0.8s 1.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  span:nth-child(10) {
+    animation: fade-in 0.8s 2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  span:nth-child(11) {
+    animation: fade-in 0.8s 2.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+  }
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
