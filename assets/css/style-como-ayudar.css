@@ -19,7 +19,7 @@ h2 {
 .intro-como-ayudar p {
     text-align: center;
     margin: 2% 10%;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 /* Estilos del contenedor de las tarjetas */
@@ -32,9 +32,10 @@ h2 {
 
 /* Estilos tarjetas */
 .card {
+    width: 20%;
     display: flex;
     position: relative;
-    padding: 2%;
+    padding: 1%;
     box-shadow: 0px 7px 10px rgb(85, 90, 107, 1);
     transition: 0.5s ease-in-out;
     /* background-color: var(--gris); */
@@ -118,4 +119,9 @@ h2 {
 /* Estilos del hover del botón de las tarjetas */
 .card .card-body .btn:hover {
     box-shadow: 0px 7px 10px rgb(85, 90, 107, 1);
+}
+
+/* Responsive */
+@media (max-width:767px) {
+    
 }

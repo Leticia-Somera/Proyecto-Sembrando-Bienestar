@@ -5,6 +5,7 @@
 @import url('./style-index.css');
 @import url('style-problematica.css');
 @import url('./style-como-ayudar.css');
+@import url('./style-contacto.css');
 
 /* Colores de la página */
 :root {
@@ -106,4 +107,91 @@ h2 {
       opacity: 1;
       filter: blur(0);
     }
+  }
+
+  /* Estilos del footer */
+  .footer {
+    padding: 4% 0;
+    margin: 5% 0 0 0;
+    color: white;
+    background-color: var(--azul3);
+  }
+  /* Estilos del footer: párrafo */
+  .footer .text p {
+    margin-right: 5%;
+    opacity: 0.8;
+  }
+
+  /* Estilos del footer: contenedor del logo */
+  .footer .text span {
+    float: left;
+    margin: 2% 2% 2% 0;
+  }
+
+  /* Estilos del footer: imagen del logo */
+  .footer .text span img {
+    width: 85%;
+    border-radius: 50%;    
+  }
+  
+  /* Estilos de lis títulos del footer */
+  .footer h3 {
+    margin-top:0;
+    margin-bottom:12px;
+    font-weight:bold;
+    font-size: 130%;
+  }
+  
+  /* Estilos de las secciones y los contactos del footer */
+  .footer ul {
+    padding:0;
+    list-style:none;
+    line-height:1.6;
+    font-size: 100%;
+    margin-bottom:0;
+  }
+
+  .footer ul li {
+    margin-bottom: 1%;
+  }
+  
+  .footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.6;
+  }
+  
+  .footer ul a:hover {
+    opacity:0.9;
+  }
+     
+  /* Estilos del footer: íconos de LinkedIn */
+  .footer ul img{
+    width: 8%;
+    margin-right: 4%;
+  }
+
+  /* Estilos del footer: Hyperlink a la página de Patrones Hermosos */
+  .footer .text .patrones {
+    text-decoration: none;
+    color: var(--azul2);
+    font-weight: bold;
+    opacity: 1;
+  }
+  
+  /* Estilos del footer: responsive */
+  @media (max-width:767px) {
+    .footer h3 {
+      margin-top:8%;
+    }
+
+    .footer .text span {
+      width: 100%;
+    }
+
+    .footer .text span img {
+      width: auto;
+      text-align: center;
+    }
+
   }

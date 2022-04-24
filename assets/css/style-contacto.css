@@ -1,0 +1,70 @@
+/* Estilos de títulos en Acerca de nosotras */
+
+.nosotras h3 {
+    color: var(--gris1);
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos de la sección de Patrones Hermosos */
+.proyecto {
+    margin: 4%;
+    max-width: 100%;
+}
+
+/* Estilos del párrafo de la sección de Patrones Hermosos */
+.proyecto p {
+    color: var(--gris1);
+    font-size: 150%;
+    width: 100%;
+    text-align: center;
+} 
+
+/* Estilos de las imágenes de la sección de Patrones Hermosos */
+.proyecto a {
+    text-decoration: none;
+    color: var(--azul1);
+    font-weight: bold;
+}
+
+.proyecto .img-patrones {
+    width: 100%;  
+    float: left;
+  }
+
+.proyecto .img-sembrando {
+    width: 100%;
+    float: right;
+}
+
+/* Estilos de la sección Acerca de nosotras */
+.nosotras {
+    margin: 4%;
+}
+
+/* Estilos de las columnas de Acerca de nosotras */
+.nosotras .col {
+    padding: 0 5% 0 5%;
+}
+
+/* Estilos de las columnas de cada una */
+.nosotras .img-erika {
+    width: 90%;
+    border-radius: 20%;
+}
+
+.nosotras .img-leticia {
+    width: 90%;
+    border-radius: 20%;
+}
+
+
+/* Estilos de los íconos de redes sociales */
+.nosotras .nosotras-iconos {
+    text-align: center;
+}
+
+.nosotras .nosotras-iconos img{    
+    width: 7%;
+    margin: 0 10% 0 10%;
+}
