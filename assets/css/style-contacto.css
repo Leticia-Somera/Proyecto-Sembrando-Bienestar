@@ -8,7 +8,6 @@
 
 /* Estilos de la sección de Patrones Hermosos */
 .proyecto {
-    margin: 4%;
     max-width: 100%;
 }
 
@@ -29,12 +28,12 @@
 
 .proyecto .img-patrones {
     width: 100%;  
-    float: left;
+    padding: 0;
   }
 
 .proyecto .img-sembrando {
-    width: 100%;
-    float: right;
+    width: 90%;
+    padding: 0;
 }
 
 /* Estilos de la sección Acerca de nosotras */
@@ -58,13 +57,7 @@
     border-radius: 20%;
 }
 
-
 /* Estilos de los íconos de redes sociales */
-.nosotras .nosotras-iconos {
-    text-align: center;
-}
-
 .nosotras .nosotras-iconos img{    
-    width: 7%;
-    margin: 0 10% 0 10%;
+    width: 20px;
 }
