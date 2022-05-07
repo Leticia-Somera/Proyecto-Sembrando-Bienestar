@@ -38,7 +38,6 @@ h2 {
     padding: 1%;
     box-shadow: 0px 7px 10px rgb(85, 90, 107, 1);
     transition: 0.5s ease-in-out;
-    /* background-color: var(--gris); */
     background-color: var(--azul2);
 }
 
