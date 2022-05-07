@@ -3,7 +3,7 @@
 
 /* importación de los archivos css de cada una de las páginas */
 @import url('./style-index.css');
-@import url('style-problematica.css');
+@import url('./style-problematica.css');
 @import url('./style-como-ayudar.css');
 @import url('./style-contacto.css');
 

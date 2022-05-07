@@ -1,0 +1,56 @@
+
+/* Estilos de titulo principal */
+.titulo-principal {
+    text-align: center; 
+    margin-left: 20%;  
+    margin-right: 20%; 
+}
+
+p {
+    text-align: justify;
+    color: var(--gris);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Estilos de subtítulos */
+.subtitulo-centralizado h2 {
+    text-align: left;
+    margin-left: 5%;
+    
+}
+
+/*Estilos de párrafo */
+.parrafo-justificado {    
+    margin: 1%;
+}
+
+.imagen_menores {
+    text-align: center;
+}
+
+.imagen_menores img {
+    width: 30%;
+    border-radius: 4%;
+}
+
+.imagen_menores > #img1, #img7 {
+    margin-right: 5%;
+} 
+
+.link {
+    font-size: 13px;
+}
+
+.link > p {
+    margin: 0 5%;
+    padding: 0;
+}
+
+.link ul li a {
+    margin-left: 5%;
+    text-decoration: none;
+    color: var(--azul1);
+    font-weight: bold;
+}
+
